@@ -11,12 +11,5 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2024_06_24_092928) do
-  create_table "posts", force: :cascade do |t|
-    t.string "name"
-    t.integer "total_vacancies"
-    t.string "eligibility"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
 end
